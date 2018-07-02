@@ -4,8 +4,7 @@
     "description": "Add alias feature for require func",
     "main": "lib/index.js",
     "scripts": {
-        "test": "mocha",
-        "publish": "npm publish"
+        "test": "mocha"
     },
     "repository": {
         "type": "git",
