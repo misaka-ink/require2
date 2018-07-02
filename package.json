@@ -1,0 +1,29 @@
+{
+    "name": "require-2",
+    "version": "1.0.0",
+    "description": "Add alias feature for require func",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "mocha",
+        "publish": "npm publish"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SmilingXinyi/require2.git"
+    },
+    "keywords": [
+        "alias",
+        "require",
+        "require alias"
+    ],
+    "author": "smilingxinyi",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/SmilingXinyi/require2/issues"
+    },
+    "homepage": "https://github.com/SmilingXinyi/require2#readme",
+    "devDependencies": {
+        "mocha": "^5.2.0",
+        "should": "^13.2.1"
+    }
+}
