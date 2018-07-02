@@ -1,2 +1,2 @@
 # Require2
-Add alias feature for require func
+Add alias feature for require function in nodejs

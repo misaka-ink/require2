@@ -1,7 +1,7 @@
 {
     "name": "require-2",
     "version": "1.0.0",
-    "description": "Add alias feature for require func",
+    "description": "Add alias feature for require function in nodejs",
     "main": "lib/index.js",
     "scripts": {
         "test": "mocha"
