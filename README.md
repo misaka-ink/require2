@@ -1,5 +1,6 @@
 # Require2
 [![Build Status](https://travis-ci.org/SmilingXinyi/require2.svg?branch=master)](https://travis-ci.org/SmilingXinyi/require2)
+
 Add alias feature for require function in nodejs
 
 ## USAGE
