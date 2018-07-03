@@ -14,3 +14,4 @@ deploy:
   on:
     tags: true
     repo: SmilingXinyi/require2
+    all_branches: true
