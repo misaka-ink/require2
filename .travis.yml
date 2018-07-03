@@ -11,4 +11,3 @@ deploy:
   on:
     tags: true
     repo: SmilingXinyi/require2
-    skip_cleanup: true
