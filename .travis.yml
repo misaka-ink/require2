@@ -4,7 +4,6 @@ env:
 dist: trusty
 language: node_js
 node_js: v10
-branches: master
 install:
 - npm i
 deploy:
