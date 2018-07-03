@@ -16,3 +16,4 @@ node_nodules/
 test/
 .editorconfig
 .gitignore
+.npmignore
