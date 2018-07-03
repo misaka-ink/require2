@@ -1,0 +1,11 @@
+env:
+  global:
+    - id=smilingxinyi
+dist: trusty
+language: node_js
+node_js: v10
+branches: master
+before_install:
+- npm i -g npm
+install:
+- npm i
