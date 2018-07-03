@@ -17,7 +17,7 @@ const module = require2('modoule')
 ```
 
 3. Configuration - package.json
-```javascript
+```
 // package.json
 
 {
