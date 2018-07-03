@@ -7,12 +7,12 @@ Add alias feature for require function in nodejs
 
 1. Install
 ```bash
-npm i -P require-2
+npm i -P @misaka.ink/require2
 ```
 
 2. Require
 ```javascript
-const require2 = require('require-2')
+const require2 = require('@misaka.ink/require2')
 
 // global
 const module = require2('modoule')
