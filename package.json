@@ -19,9 +19,9 @@
     "author": "Xinyi",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/SmilingXinyi/require2/issues"
+        "url": "https://github.com/misaka-ink/require2/issues"
     },
-    "homepage": "https://github.com/SmilingXinyi/require2#readme",
+    "homepage": "https://github.com/misaka-ink/require2#readme",
     "devDependencies": {
         "mocha": "^5.2.0",
         "should": "^13.2.1"
