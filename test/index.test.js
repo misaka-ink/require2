@@ -3,18 +3,20 @@
  */
 
 const should = require('should')
-const require2 = require('../lib')
+
+require('../lib')(__dirname) // global require2
 
 describe('require2', function () {
-    const demoResult = {'demo': true}
-    const m1 = require2('@demo/module1')
-    const m2 = require2('@demo/module2')
+    const a = require2('@a')
+    const b = require2('@b/bb')
 
-    it('require a object should equal to the target result', function () {
-        m1.should.deepEqual(demoResult)
+    it('a require a object should equal to ./b/bb info', function () {
+        const aInfo = require('./a').info
+        a.info.should.equal(aInfo)
     })
 
-    it ('require a functon should return equal to the target result', function() {
-        m2(m1).should.deepEqual(demoResult)
+    it ('b require a object should return to ./b/b info', function() {
+        const bInfo = require('./b/bb').info
+        b.info.should.equal(bInfo)
     })
 })
