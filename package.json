@@ -28,8 +28,5 @@
     },
     "publishConfig": {
         "access": "public"
-    },
-    "alias": {
-        "@demo": "test/demo"
     }
 }

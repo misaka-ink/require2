@@ -20,3 +20,16 @@ describe('require2', function () {
         b.info.should.equal(bInfo)
     })
 })
+
+global.require2 = null
+
+require('./d')
+
+describe('initital require2 in submoudle', function () {
+    const a = require2('@a')
+
+    it('a require a object should equal to ./b/bb info', function () {
+        const aInfo = require('./a').info
+        a.info.should.equal(aInfo)
+    })
+})
