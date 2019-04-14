@@ -3,22 +3,24 @@
 
 Add alias feature for require function in nodejs
 
+## How to achieve
+
+* Priority to get the most recent 'package.json' file
+* Require modules based on this 'package.json' file relative path
+
 ## USAGE
 
-1. Install
+### Install
 ```bash
 npm i -P @misaka.ink/require2
 ```
 
-2. Require
+### Intro
 ```javascript
 const require2 = require('@misaka.ink/require2')
-
-// global
-const module = require2('modoule')
 ```
 
-3. Configuration - package.json
+### Configuration `package.json`
 ```
 // package.json
 
@@ -33,6 +35,8 @@ const module = require2('modoule')
 
 ```
 
+## Example
+
 ## Todo
 
-前缀后缀
+- prefixes / suffixes
