@@ -3,9 +3,8 @@
  */
 
 const should = require('should')
-const path = require('path');
 
-require('../lib')(__dirname) // global require2
+require('../lib') // global require2
 
 describe('require2', function () {
     const a = require2('@a')
@@ -16,7 +15,7 @@ describe('require2', function () {
         a.info.should.equal(aInfo)
     })
 
-    it ('b require a object should return to ./b/b info', function() {
+    it('b require a object should return to ./b/b info', function () {
         const bInfo = require('./b/bb').info
         b.info.should.equal(bInfo)
     })
