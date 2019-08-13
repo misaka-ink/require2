@@ -9,13 +9,10 @@
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "dependencies": {
-        "@misaka.ink/require2": "^1.0.6"
-    },
     "alias": {
         "@b": "b",
         "@a": "a",
-        "@c": "c"
+        "@c": "./c"
     },
     "envmap": {
         "production": "prod"
