@@ -41,4 +41,10 @@ describe('NODE_ENV map config', () => {
         const json = require2('./json/demo.json')
         json.a.should.equal(2)
     })
+
+    it('should return json value of the \'does_not_exist.json\'', () => {
+        process.env.NODE_ENV = 'production'
+        const json = require2('./json/does_not_exist.json')
+        json.a.should.equal(1)
+    })
 })
