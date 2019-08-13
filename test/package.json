@@ -15,7 +15,7 @@
     "alias": {
         "@b": "b",
         "@a": "a",
-        "@c": "c"
+        "@c": "./c"
     },
     "envmap": {
         "production": "prod"
