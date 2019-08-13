@@ -16,5 +16,8 @@
         "@b": "b",
         "@a": "a",
         "@c": "c"
+    },
+    "envmap": {
+        "production": "prod"
     }
 }
