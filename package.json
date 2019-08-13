@@ -4,8 +4,7 @@
     "description": "Add alias feature for require function in nodejs",
     "main": "lib/index.js",
     "scripts": {
-        "test": "mocha",
-        "tag:1.0": "git tag -a release1.0.7 -m 'release version 1.0.7'"
+        "test": "mocha"
     },
     "repository": {
         "type": "git",
