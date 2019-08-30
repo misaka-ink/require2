@@ -5,6 +5,10 @@ Require2是对Nodejs module模块`require`的扩展，简化类似`../../../test
 
 [English](./README.md) | 简体中文
 
+## 安装
+
+> npm install @misaka.ink/require2
+
 ## 使用方式
 
 配置`package.json`文件，新增字段**alias**，添加模块映射信息，路径相对于该`package.json`的位置
