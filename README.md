@@ -80,8 +80,9 @@ const env = {
     ```
 */
 const conf = require('./conf.json')
+```
 
-// alias suppport
+##### alias suppport
 
 ```javascript
 /**
