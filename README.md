@@ -79,7 +79,7 @@ const env = {
     }[process.env.NODE_ENV || 'development']
     ```
 */
-const conf = require('./conf.json')
+const conf = require2('./conf.json')
 ```
 
 ##### alias suppport
