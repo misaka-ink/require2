@@ -1,6 +1,6 @@
 {
     "name": "@misaka.ink/require2",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "Add alias feature for require function in nodejs",
     "main": "lib/index.js",
     "scripts": {
